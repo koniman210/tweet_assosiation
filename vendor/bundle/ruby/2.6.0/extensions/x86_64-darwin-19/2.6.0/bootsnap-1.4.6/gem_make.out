@@ -1,0 +1,15 @@
+current directory: /Users/user/Desktop/association_tutorial/vendor/bundle/ruby/2.6.0/gems/bootsnap-1.4.6/ext/bootsnap
+/Users/user/.rbenv/versions/2.6.6/bin/ruby -I /Users/user/.rbenv/versions/2.6.6/lib/ruby/2.6.0 -r ./siteconf20200621-68479-15tcyec.rb extconf.rb
+creating Makefile
+
+current directory: /Users/user/Desktop/association_tutorial/vendor/bundle/ruby/2.6.0/gems/bootsnap-1.4.6/ext/bootsnap
+make "DESTDIR=" clean
+
+current directory: /Users/user/Desktop/association_tutorial/vendor/bundle/ruby/2.6.0/gems/bootsnap-1.4.6/ext/bootsnap
+make "DESTDIR="
+compiling bootsnap.c
+linking shared-object bootsnap/bootsnap.bundle
+
+current directory: /Users/user/Desktop/association_tutorial/vendor/bundle/ruby/2.6.0/gems/bootsnap-1.4.6/ext/bootsnap
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 bootsnap.bundle ./.gem.20200621-68479-1e7el2v/bootsnap

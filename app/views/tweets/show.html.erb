@@ -1,0 +1,23 @@
+<h1>Tweets#show</h1>
+<p>Find me in app/views/tweets/show.html.erb</p>
+<p><span>email: </span><%= @tweet.user.email %></p> <!-- 追加 -->
+<p><span>ツイート内容: </span><%= @tweet.body %></p>
+<hr>
+
+<h2>コメント入力</h2>
+<%= form_for ([@tweet,@comment]) do |f| %>
+  <p>
+  
+    <%= f.text_field :body %>
+  </p>
+    <%= submit_tag("Submit") %>
+<% end %>
+
+<hr>
+<h2>コメント一覧</h2>
+<% @tweet.comments.each do |comment| %>
+<p>入力者：<%= comment.user.email%></p>
+<p><%= comment.body %></p>
+<% end %>
+
+
