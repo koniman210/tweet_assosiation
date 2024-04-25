@@ -5,7 +5,7 @@ class CommentsController < ApplicationController
     comment.tweet_id = params[:tweet_id]
     comment.save
     
-    
+    p "comment.errors.full_messages"
     redirect_to tweet_path(params[:tweet_id])
   end
 
